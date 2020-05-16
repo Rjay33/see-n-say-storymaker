@@ -1,0 +1,149 @@
+	@charset "utf-8";
+	/* Assignment 1 | COMP1073 Client-Side JavaScript */
+	body {
+	background: white;
+	font-family: 'Times New Roman', Times, serif;
+	width: 720px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	h1 {
+	font-size: 45px;
+	color: black;
+	}
+
+	h2 {
+	font-size: 35px;
+	}
+
+	button {
+	border-radius: 150%;
+	border-color: white;
+	background: transparent;
+	}
+
+	button.left {
+	position: relative;
+	height: 35px;
+	width: 40px;
+	}
+
+	button.subjects.left {
+	top: -626px;
+	left: 28px;
+	}
+
+	button.verbs.left {
+	top: -621px;
+	left: 64px; 
+	}
+
+	button.adjectives.left {
+	top: -617px;
+	left: 100px; 
+	}
+
+	button.nouns.left {
+	top: -613px;
+	left: 133px; 
+	}
+
+	button.places.left {
+	top: -609px;
+	left: 166px; 
+	}
+
+	button.right {
+	position: relative;
+	font-family: 'Times New Roman';
+	font-size: 1.5em;
+	height: 35px;
+	width: 40px;
+	}
+
+	button.subjects.right {
+	border-color: fuchsia;
+	font-weight: bold;
+	top: -590px;
+	left: 317px; 
+	}
+
+	button.verbs.right {
+	border-color: lightskyblue;
+	font-weight: bold;
+	top: -590px;
+	left: 347px; 
+	}
+
+	button.adjectives.right {
+	border-color: limegreen;
+	font-weight: bold;
+	top: -590px;
+	left: 376px; 
+	}
+
+	button.nouns.right {
+	border-color: orange;
+	font-weight: bold;
+	top: -590px;
+	left: 406px; 
+	}
+
+	button.places.right {
+	border-color: hotpink;
+	font-weight: bold;
+	top: -588px;
+	left: 434px; 
+	}
+
+	button.surprises.right {
+	border-color: red;
+	top: -228px;
+	left: 321px;
+	}
+
+	button.playback.right {
+	border-color: lightseagreen;
+	top: -210px;
+	left: 365px;
+	}
+
+	button.reset.right {
+	position: relative;
+	font-size: 1.2em;
+	font-weight: bold; 
+	background-color: red;
+	border-color: red;
+	top: -335px;
+	left: 498px;
+	width: 80px;
+	}
+
+	button.randomize.right {
+	position: relative;
+	color: grey;
+	border-color: darkgrey;
+	top: -450px;
+	left: 165px;
+	}
+
+	p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: darkgreen;
+	text-align:left;
+	position: relative;
+	top: -575px;
+	left: 555px;
+
+	}
+
+	p.class {
+	background: rgb(41, 105, 126);
+	color: black;
+	padding: 10px;
+	visibility: hidden;
+	}
